@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+     font-family: 'TenorSans';
+     src: url('../../public/TenorSans-Regular.ttf');
+}
+*{
+    font-family: 'TenorSans';
+}
+
+.img_hover{
+    
+    background-image: url('../../public/build/img/4.jpg');
+}
+.img_hover:hover{
+    background-image: url('../../public/build/img/old.jpg');
+}
+
+.img_hover4{
+    
+    background-image: url('../../public/build/img/2.jpg');
+}
+.img_hover4:hover{
+    background-image: url('../../public/build/img/old.jpg');
+}
+
+.img_hover2{
+    
+    background-image: url('../../public/build/img/5.jpg');
+}
+.img_hover2:hover{
+    background-image: url('../../public/build/img/old.jpg');
+}
+
+.img_hover3{
+    
+    background-image: url('../../public/build/img/6.jpg');
+}
+.img_hover3:hover{
+    background-image: url('../../public/build/img/old.jpg');
+}
+
